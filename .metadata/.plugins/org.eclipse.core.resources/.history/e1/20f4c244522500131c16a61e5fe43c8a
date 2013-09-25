@@ -1,0 +1,32 @@
+package com.callisto.connect.process;
+
+public class Process {
+
+	// 메모리 기술.
+	
+	public Process(String filepath) {
+
+		// 파일을 개방하여 구문 분석.
+		
+		analyze();
+	}
+	
+	private void analyze()
+	{
+		checkSyntax();
+		buildState();
+	}
+	
+	// 
+	private void checkSyntax()
+	{
+		
+	}
+	
+	private void buildState()
+	{
+		
+	}
+	
+	public void
+}

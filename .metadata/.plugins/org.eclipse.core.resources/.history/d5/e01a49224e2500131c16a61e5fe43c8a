@@ -1,0 +1,68 @@
+package com.callisto.connect.environment;
+
+import com.callisto.connect.process.Process;
+
+public class Environment {
+
+	private Environment() {}
+	private static Environment _instance = null;
+	public static Environment getInstance()
+	{
+		if (Environment._instance == null)
+		{
+			Environment._instance = new Environment();
+			Environment._instance.initialize();
+		}
+		
+		return Environment._instance;
+	}
+	
+	public void initialize()
+	{
+		// Initialization.
+	}
+
+	private Process _currentProcess = null;
+	
+	public Process getCurrentProcess() { return _currentProcess; }
+	public void setCurrentProcess(Process process) { this._currentProcess = process; }
+
+	
+	private State _currentState = State.STATE_IDLE;
+	
+	public State getCurrentState() { return _currentState; }
+	public void setCurrentState(State state) 
+	{ 
+		this._currentState = state;
+		
+		switch (state) {
+		
+			case STATE_IDLE:
+			{
+				
+				// 로드 진행.
+				break;	
+			}
+
+			case STATE_LOADED:
+			{
+				execute();
+				break;
+			}
+			
+			case STATE_RUNNING:
+			{
+				
+				break;
+			}
+		}
+	}
+	
+	public void execute()
+	{
+		while (getCurrentState() == State.STATE_RUNNING)
+		{
+			
+		}
+	}
+}

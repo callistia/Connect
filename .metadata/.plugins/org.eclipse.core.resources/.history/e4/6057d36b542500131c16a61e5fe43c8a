@@ -1,0 +1,11 @@
+package com.callisto.connect.server;
+
+public class Server {
+
+	public Server(String connectionString)
+	{
+		
+	}
+	
+	// 이벤트 수신.
+}

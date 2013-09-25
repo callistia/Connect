@@ -1,0 +1,27 @@
+package com.callisto.connect;
+
+import com.callisto.connect.environment.Environment;
+import com.callisto.connect.error.ExceptionHelper;
+import com.callisto.connect.process.Process;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+//		if (args.length < 2)
+//		{
+//			int errorCode = ExceptionHelper.ERROR_INVALID_PARAMETER;
+//			String err = ExceptionHelper.getErrorMessageByCode(errorCode);
+//			
+//			System.out.println(err);
+//			System.exit(errorCode);
+//		}
+		
+		Process process = new Process("");
+		
+		Environment environment = Environment.getInstance();
+		environment.setCurrentProcess(process);
+		
+		environment.execute();
+	}
+}

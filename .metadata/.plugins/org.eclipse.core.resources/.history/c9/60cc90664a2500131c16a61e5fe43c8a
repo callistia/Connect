@@ -1,0 +1,8 @@
+package com.callisto.connect.error;
+
+import java.util.Dictionary;
+
+public class Error {
+
+	private static Dictionary<Integer, String> _dictionary = null;
+}

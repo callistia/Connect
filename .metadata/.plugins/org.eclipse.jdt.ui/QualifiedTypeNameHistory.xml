@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Dictionary"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.callisto.connect.error.Error"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.Process"/>
+<fullyQualifiedTypeName name="com.callisto.connect.process.Process"/>
+<fullyQualifiedTypeName name="com.callisto.connect.environment.State"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="com.callisto.connect.error.ExceptionHelper"/>
+<fullyQualifiedTypeName name="com.callisto.connect.server.Server"/>
+<fullyQualifiedTypeName name="com.callisto.connect.exception.ErrorHandler"/>
+<fullyQualifiedTypeName name="com.callisto.connect.environment.Environment"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,12 @@
+package com.callisto.connect;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		if (args.length < 2)
+		{
+			System.out.println();
+		}
+	}
+}

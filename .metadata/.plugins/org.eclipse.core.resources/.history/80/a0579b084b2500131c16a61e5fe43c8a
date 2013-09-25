@@ -1,0 +1,18 @@
+package com.callisto.connect;
+
+import com.callisto.connect.error.ExceptionHelper;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		if (args.length < 2)
+		{
+			int errorCode = ExceptionHelper.ERROR_INVALID_PARAMETER;
+			String err = ExceptionHelper.getErrorMessageByCode(errorCode);
+			
+			System.out.println(err);
+			System.exit(errorCode);
+		}
+	}
+}

@@ -1,0 +1,5 @@
+package com.callisto.connect.error;
+
+public class Error {
+
+}

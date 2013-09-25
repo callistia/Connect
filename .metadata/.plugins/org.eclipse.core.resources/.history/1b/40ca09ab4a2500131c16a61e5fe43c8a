@@ -1,0 +1,23 @@
+package com.callisto.connect.error;
+
+import java.util.HashMap;
+
+public class Error {
+
+	private static HashMap<Integer, String> _dictionary = null;
+	
+	static {
+		
+		Error._dictionary = new HashMap<Integer, String>();
+		
+		
+	}
+	
+	public static String getErrorMessageByCode(int errorCode)
+	{
+		if (Error._dictionary.containsKey(errorCode) != true)
+		{
+			return null;
+		}
+	}
+}

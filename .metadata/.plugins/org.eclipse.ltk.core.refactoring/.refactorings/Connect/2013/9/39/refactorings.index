@@ -1,0 +1,10 @@
+1380048555922	Encapsulate field '_process'
+1380048926849	Rename type 'Error'
+1380049455276	Encapsulate field '_state'
+1380049489020	Rename field '_state'
+1380052844178	Encapsulate field '_isDebugging'
+1380054769667	Rename package 'com.callisto.connect.error'
+1380054790995	Delete element
+1380054803706	Rename type 'Server'
+1380055501353	Rename type 'ExceptionHelper'
+1380055688806	Rename local variable 'err'
